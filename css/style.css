@@ -1,0 +1,94 @@
+/* Importing component files */
+
+@import url("components/button.css");
+@import url("components/form.css");
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url("components/product-feature.css");
+@import url("components/icon.css");
+@import url("components/qty.css");
+@import url("components/tags.css")
+
+
+
+body {
+	font-family: 'Merriweather', serif;
+	font-size:  16px;
+	font-weight:  300;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 8px;
+ 	background: white;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+  text-align: left;
+}
+
+/* General style rules for fonts and colors */
+h1 {
+	font-family: 'montserrat', sans-serif;
+	font-weight:  700;
+	font-size: 56px;
+	color: black;
+	line-height: 20px;
+	letter-spacing: 2px;
+}
+
+h2 {
+	font-family: 'montserrat', sans-serif;
+	font-weight: 700;
+	font-size:  40px;
+	color:  black;
+}
+
+h3 {
+	font-family: 'montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 24px;
+	color: #3A3A3A;
+}
+
+h4 {
+	font-family: 'montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #3A3A3A;
+	}
+
+a {
+  text-decoration:	none;
+}
+
+a:hover {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+/* Custom design with class */
+.hint{
+	font-family: 'Montserrat',sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	color: #898989;
+}
+#link{
+	font-weight: 300;
+	color: blue;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+#btn {
+	background-color: #e89f71;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 30px;
+
+}
+
+
+

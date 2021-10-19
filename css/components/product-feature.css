@@ -1,0 +1,105 @@
+.product-features {
+  display: flex;
+  flex-direction: flow;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 0px;
+  width: 300px;
+
+}
+
+/*This is product feature image*/
+.product-features img {
+  align-items: center;
+  width: 285px;
+  height: 300px;
+
+}
+/*This is product feature title*/
+.product-features h3 {
+  padding-left: 0px;
+  margin-left: 10px;
+  margin: 0px 0px 5px 10px;
+}
+
+/*This is product feature description*/
+.product-features h4 {
+  margin: 0px 0px 0px 10px;
+}
+  
+/*This is product feature price*/
+.product-feature p {
+  font-family: montserrat,sans-serif;
+  font-weight: 600;
+  margin-left: 10px;
+  margin: 0px 0px 0px 10px;
+}
+
+/*This is product feature box format*/
+.product-feature {
+  width: 285px;
+  height: 390px;
+  margin: 0px;
+  padding:  0px;
+  background: rgba(216, 226, 220, 0.72);
+  backdrop-filter: blur(31px);
+  box-shadow:  0px 2px 5px rgb(0,0,0,0.1);
+  border: 5px solid rgba(216, 226, 220, 0.72); 
+  position: relative;
+}
+
+
+/*PRODUCT LISTING*/
+.product-listings {
+  display: flex;
+  flex-direction: flow;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 0px;
+  width: 300px;
+
+}
+
+/*This is product listing image*/
+.product-listing img {
+  align-items: center;
+  width: 285px;
+  height: 300px;
+
+}
+/*This is product listing title*/
+.product-listing h3 {
+  padding-left: 0px;
+  margin-left: 10px;
+  margin: 0px 0px 5px 10px;
+}
+
+/*This is product listing description*/
+.product-listing h4 {
+  margin: 0px 0px 0px 10px;
+}
+  
+/*This is product listing price*/
+.product-listing p {
+  font-family: montserrat,sans-serif;
+  font-weight: 600;
+  margin-left: 10px;
+  margin: 0px 0px 0px 10px;
+}
+
+/*This is product listing box format*/
+.product-listing {
+  width: 285px;
+  height: 390px;
+  margin-right: 15px;
+  padding:  0px;
+  background: white;
+  backdrop-filter: blur(31px);
+  box-shadow:  0px 2px 5px rgb(0,0,0,0.1);
+  border: 5px solid rgba(216, 226, 220, 0.72); 
+
+}
+
+.product-listing-title {
+  text-align: center;
+}

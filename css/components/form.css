@@ -1,0 +1,20 @@
+.input-medium{
+	font-family: 'Montserrat',sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	color: black;
+}
+
+#textarea-medium{
+	padding: 100px;
+}
+
+.input-long{
+	width: 320px;
+}
+
+.img-feature {
+	width: 285px;
+	height: 301px;
+}
